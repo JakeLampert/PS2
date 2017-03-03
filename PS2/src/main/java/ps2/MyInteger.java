@@ -3,8 +3,8 @@ package ps2;
 public class MyInteger {
 	private int iValue;
 	
-	public MyInteger(){
-		
+	public MyInteger(int newValue){
+		iValue = newValue;
 	}
 
 	public int getiValue(){
